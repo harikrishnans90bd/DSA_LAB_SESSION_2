@@ -12,7 +12,7 @@ public class CurrencyDenomination {
 		
 		Scanner scanner=new Scanner(System.in);
 		
-		System.out.println("Please input size of array");
+		System.out.println("enter the size of currency denominations");
 		
 		int size=scanner.nextInt();
 		
@@ -20,7 +20,7 @@ public class CurrencyDenomination {
 		int note[]=new int[size];
 		int notecounter[]=new int[size];
 		
-		System.out.println("Please input elements in array");
+		System.out.println("enter the currency denominations value");
 		for (int i = 0; i < note.length; i++) {
 			note[i]=scanner.nextInt();
 		}
